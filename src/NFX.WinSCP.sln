@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testing", "testing", "{B067F860-E309-4519-A34D-9DA88E3D636F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFX.WinSCP.ITest", "testing\NFX.WinSCP.ITest\NFX.WinSCP.ITest.csproj", "{1AE0019D-0B5E-4433-9511-D33635701661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFX.WinSCP", "NFX.WinSCP\NFX.WinSCP.csproj", "{1B5C5A64-5D4E-4E69-8585-D49A85310A1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AE0019D-0B5E-4433-9511-D33635701661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE0019D-0B5E-4433-9511-D33635701661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE0019D-0B5E-4433-9511-D33635701661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE0019D-0B5E-4433-9511-D33635701661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5C5A64-5D4E-4E69-8585-D49A85310A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5C5A64-5D4E-4E69-8585-D49A85310A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5C5A64-5D4E-4E69-8585-D49A85310A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5C5A64-5D4E-4E69-8585-D49A85310A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AE0019D-0B5E-4433-9511-D33635701661} = {B067F860-E309-4519-A34D-9DA88E3D636F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BB8B874-4703-4DFB-86E1-986D15D3A1FB}
+	EndGlobalSection
+EndGlobal
